@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <style>
+        body {
+            background: #ffffff;
+        }
+
+
+        .formcontrol {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 150px;
+            color: rgb(0, 0, 0);
+            
+        }
+
+        #log-main {
+
+
+            height: 500px;
+            width: 450px;
+
+            font-size: 1em;
+        }
+
+        #log-main:hover {
+            box-shadow: 3px 3px #111c1c;
+            border-radius: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #a001c0;
+            font-size: 50px;
+        }
+
+
+        #password {
+            width: 90%;
+            padding: 5px;
+            border: 2px solid #d990d8;
+            border-radius: 9px;
+            margin-bottom:20px ;
+        }
+
+        #password:hover {
+            border: 2px solid #51a63a;
+
+        }
+
+
+
+        button {
+            width: 99%;
+            padding: 8px;
+            background: rgb(229, 188, 5);
+            padding: 10px;
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 15px;
+            color: rgb(3, 0, 0);
+           
+        }
+
+        #img-log {
+            display: grid;
+            grid-template-columns: repeat(4, 60px);
+            margin-left: 100px;
+        margin-top: 50px;
+        }
+
+        .text-mid{
+            text-align: center;
+        }
+    </style>
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+
+<body>
+    <div class="formcontrol">
+        <div id="log-main">
+
+            <div>
+                <h1>Sign Up</h1>
+            </div>
+            <div>
+
+
+
+                <label for="Email">Email</label><br>
+                <input type="email" placeholder="Enter Your Email" id="password">
+
+            </div>
+
+
+
+
+
+            <div>
+                <label for="password">Password</label><br>
+                <input type="password" placeholder="Enter Password" id="password">
+
+            </div>
+
+            <div>
+                <label for="Rememberme"> <input type="checkbox" > Remember me  </label>
+             
+
+            </div>
+<br>
+<br>
+
+            <div>
+                <button>Sign Up</button>
+            </div>
+
+
+       
+            <div id="img-log">
+
+                <img src="./Assets/google.svg" alt="" height="20">
+                <img src="./Assets/github.svg" alt="" height="20">
+                <img src="./Assets/facebook.svg" alt="" height="20">
+                <img src="./Assets/twitter.svg" alt="" height="20">
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
